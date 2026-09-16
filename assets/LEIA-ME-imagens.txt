@@ -1,0 +1,29 @@
+COMO ADICIONAR / TROCAR AS IMAGENS DO SITE
+==========================================
+
+As imagens dos serviços são usadas em DOIS lugares:
+  1) no mini-slider ao lado do título (hero da home);
+  2) nos cards de serviço (home e páginas de cidade).
+Ou seja: um único conjunto de imagens abastece os dois.
+
+ONDE COLOCAR  ->  assets/servicos/
+Tamanho recomendado: 800 x 600 px (JPG). Sem o arquivo, aparece o ícone (não quebra).
+
+Arquivos esperados (use exatamente estes nomes):
+  esgoto.jpg
+  pia.jpg
+  ralo.jpg
+  caixa-de-gordura.jpg
+  caixa-de-passagem.jpg
+  vaso-sanitario.jpg
+  coluna-de-predio.jpg
+  hidrojateamento.jpg
+
+MEXER NO MINI-SLIDER DA HERO (arquivo index.html):
+  - Trocar imagem: só substituir o arquivo acima com o mesmo nome.
+  - Adicionar um slide: copie um bloco <a class="slide"> ... </a> dentro de
+    <div class="mini-viewport">, troque imagem/nome/link do WhatsApp e adicione
+    um <button class="slider-dot" ...> nos indicadores (div class="mini-dots").
+  - Remover um slide: apague o bloco <a class="slide"> e o respectivo slider-dot.
+
+Basta soltar os arquivos com esses nomes na pasta assets/servicos/ e dar deploy.
