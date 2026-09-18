@@ -186,7 +186,8 @@ a.card:hover{border-color:var(--brand);box-shadow:var(--shadow-sm)}
 .cta-band{background:linear-gradient(160deg,var(--ink),var(--brand-deep));color:#fff}
 .cta-band h2{color:#fff}
 .cta-band .lead{color:#cfe0f3}
-.cta-band .hero-cta{margin-top:1.2rem;justify-content:center}
+.cta-band .hero-cta{margin-top:1.2rem;justify-content:center !important;align-items:center}
+.cta-band .trust{justify-content:center !important;width:100%}
 
 /* ---------- Pagamento / garantia ---------- */
 .pay{display:flex;flex-wrap:wrap;gap:12px}
